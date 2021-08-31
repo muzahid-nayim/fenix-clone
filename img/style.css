@@ -1,0 +1,335 @@
+body,
+p,
+span {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/*
+==================
+Begain coustom css
+==================
+ */
+.main_header .container-fluid,
+.slider_section .container-fluid {
+    max-width: 1400px;
+}
+
+
+/*Special Button */
+body .btn-primary {
+    background-color: #E83B3E !important;
+    border-color: #E83B3E;
+    padding: 10px 40px;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+}
+
+body .btn-primary:hover {
+    border-color: #111;
+}
+
+body .btn-primary::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #111;
+    border-color: #111;
+    z-index: -1;
+    transition: 0.4s;
+}
+
+body .btn-primary:hover::after {
+    width: 100%;
+}
+
+/* 
+===========
+Menu
+===========
+*/
+ul.our_primary_menu {}
+
+ul.our_primary_menu li {}
+
+ul.our_primary_menu li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #111;
+    font-weight: 500;
+}
+
+ul.our_primary_menu li a:hover {}
+
+/* 
+===========
+Dropdown menu css
+===========
+*/
+ul.our_primary_menu li {
+
+    position: relative;
+}
+
+ul.our_primary_menu li ul {
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 160%;
+    background: #fafafa;
+    list-style: none;
+    padding: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+ul.our_primary_menu li ul li {
+    flex-direction: column;
+}
+
+ul.our_primary_menu li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 120%;
+}
+
+ul.our_primary_menu li ul li a {}
+
+
+.header-info {}
+
+.header-serch {
+    width: 60px;
+    font-size: 22px;
+    text-align: center;
+    margin-right: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.header_call_icon {
+    font-size: 33px;
+    color: #E83B3E;
+}
+
+.header_call_info span {
+    color: #606060;
+}
+
+.header_call_info a {
+    font-weight: 500;
+    color: #111;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-call {
+    width: 220px;
+}
+
+.header-button {}
+
+/*
+===================
+ slider /Banner css
+===================
+*/
+
+.slider_section {
+    background: url(img/ia_100000050.jpg) no-repeat top center;
+
+
+    background-size: cover;
+}
+
+.slider-content-wrap {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slider-content {}
+
+.slider-content h6 {
+    color: #e73a3e;
+}
+
+.slider-content h1 {
+    font-size: 60px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.slider-content p {
+    color: #606060;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.header_social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.header_social ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.header_social ul li {}
+
+.header_social ul li span {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 50px;
+    position: relative;
+
+
+
+}
+
+.header_social ul li span::after {
+    content: "";
+    height: 1px;
+    background: #111;
+    width: 35px;
+    position: absolute;
+    right: -45px;
+    top: 51%;
+
+}
+
+.header_social ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 14px;
+    color: #111;
+    font-size: 19px;
+}
+
+/* 
+===========================================
+Begain part 2 css
+===========================================
+*/
+/* 
+===========================================
+logo area
+===========================================
+*/
+.clint_logo {}
+
+section.Logo_section.py-5 {
+    border-bottom: 1px solid #ddd;
+}
+
+.clint_logo ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* 
+===========================================
+about section
+===========================================
+*/
+.about_image {
+    position: relative;
+}
+
+
+.about_img_text {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(img/ia_100000051.png);
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_text_inner h2 {
+    color: #E83B3E;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.about_text_inner p {
+    font-weight: 600;
+}
+
+.finix_text ul {
+    list-style: none;
+}
+
+.finix_text h6 {
+    color: #E83B3E;
+    font-weight: 400;
+
+}
+
+.finix_text h2 {
+    font-weight: 400;
+
+}
+
+.finix_text p {
+
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #606060;
+    font-weight: 400;
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+}
+
+.finix_text strong {
+    font-size: 18px;
+    color: #606060;
+    font-weight: 400;
+}
+
+
+.finix_text li {
+    list-style-type: none;
+    color: #606060;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.finix_text i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #e73c3e;
+    font-size: 20px;
+}
