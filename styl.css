@@ -9,9 +9,7 @@ p,span,a{
 nav{
       padding: 0px 0px;
 }
-ul.navbar-nav{
-      margin-left: auto;
-}
+
 ul.navbar-nav li {
 	position: relative;
 	line-height: 40px;
@@ -62,10 +60,10 @@ ul.navbar-nav li ul li:hover a{
 	line-height: 70px;
 	font-size: 20px;
 }
-.header-call-info {
+/* .header-call-info {
 	width: 148px;
 	margin-left: 8px;
-}
+} */
 .call-icon span {
 	display: block;
 	float: left;
@@ -145,7 +143,6 @@ ul.navbar-nav li ul li:hover a{
 }
 .banner-content p {
 	color: #797979;
-	width: 568px;
 	line-height: 30px;
 }
 
@@ -346,11 +343,9 @@ ul.navbar-nav li ul li:hover a{
 /* FRom Section CSS Start here */
 
 .from-section-header p {
-	width: 600px;
 	margin: auto;
 }
 .from-left-site h2 {
-	width: 600px;
 	line-height: 44px;
 	font-size: 36px;
 	font-weight: 400;
@@ -472,7 +467,7 @@ ul.navbar-nav li ul li:hover a{
 }
 .call-action-right a {
 	color: #fff;
-	font-size: 35px;
+	/* font-size: 35px; */
 	font-weight: 500;
 	margin-left: 15px;
 }
@@ -500,7 +495,6 @@ ul.navbar-nav li ul li:hover a{
 	font-size: 26px;
 }
 .value-list p {
-	width: 526px;
 	color: #606060;
 	font-weight: 400;
 }
@@ -553,7 +547,6 @@ ul.navbar-nav li ul li:hover a{
 .testimonial-content h5 {
 	font-size: 29px;
 	font-weight: 400;
-	width: 768px;
 	line-height: 40px;
 	margin-bottom: 41px;
 }
@@ -673,7 +666,6 @@ ul.navbar-nav li ul li:hover a{
 .fotter-logo-side p {
 	margin: 22px 0px;
 	color: #fbfbfb;
-	width: 260px;
 	line-height: 30px;
 }
 .footer-social-menu h6 {
@@ -686,7 +678,6 @@ ul.navbar-nav li ul li:hover a{
 .fotter-logo-side p {
 	margin: 22px 0px;
 	color: #fbfbfb;
-	width: 260px;
 	line-height: 30px;
 }
 .footer-social-menu ul {
@@ -762,3 +753,12 @@ ul.navbar-nav li ul li:hover a{
 	color: #ccc;
 	font-size: 18px;
 }
+
+ /* edit by MUZAHID */
+
+ .logo-image{
+	width: 100%;
+ }
+ .abimg{
+	margin: 0 auto;
+ }
