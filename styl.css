@@ -34,20 +34,26 @@ ul.navbar-nav li ul {
 	top: 104%;
 	left: 0;
 	width: 150px;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
       opacity: 0;
       visibility: hidden;
-      transition: .4s;
+      /* transition:  .1s; */
 
 }
-ul.navbar-nav li ul li {
+.navbar-nav li ul li {
 	line-height: 43px;
-      background-color:#E83B3E ;
+      background-color:#ec0e0e ;
       border-bottom: 1px solid #ddd;
+	  color: white;
+	  z-index: 9999;
 }
-ul.navbar-nav li ul li:hover{
-      background-color: crimson;
+.navbar-nav li ul li a{
+	color: white;
 }
+.list-unstyled{
+	background: rgb(255, 255, 255);
+}
+
 ul.navbar-nav li ul li:hover a{
       color: #fff;
       letter-spacing: 2px;
@@ -126,8 +132,15 @@ ul.navbar-nav li ul li:hover a{
 .banner-section {
 	background-image: url(img/main-banner2.jpg);
 	height: 700px;
-	background-size: cover;
+	background-size: 100%;
       background-position: fixed;
+	  background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1000px) {
+	.banner-section {
+		background: none;
+	}
 }
 .banner-content{
       margin-top: 200px;
@@ -189,9 +202,7 @@ ul.navbar-nav li ul li:hover a{
 	position: relative;
 }
 .about-image-text {
-	position: absolute;
-	right: 100px;
-	bottom: 0px;
+	
 	background: url(img/shape.png) no-repeat;
 	background-size: contain;
 	width: 150px;
